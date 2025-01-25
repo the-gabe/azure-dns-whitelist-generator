@@ -39,3 +39,8 @@ MSAL Authority URL:
 # "I have other Private DNS Zones which I named myself"
 
 Ok, did you name them with the `.internal` suffix? Because `.internal` is kind of what you should be using for your Azure Private DNS Zones which do not fall into the list used by Private Links and the Azure platform as a whole. ICANN as part of ICANN Resolution 2024.07.29.06 reserved `.internal` specifically for intranet and virtual network usage such as this. Do things properly, and then you only need to allow `.internal` in you DNS domain list. Otherwise, have fun! :)
+
+
+# Disclaimer
+
+This repository is not endorsed by my employer, organisation, clients in any way, shape or form . This is released on the internet as a convenience only. Usage of this script may cause toast to sporadically appear inside of your computer case.
