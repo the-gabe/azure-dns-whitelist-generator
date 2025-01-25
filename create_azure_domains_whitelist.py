@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 import urllib.request
+
+# Yes really, I'm using 2 HTML parsers, yes this is terrible, yes this is sloppy code.
 from bs4 import BeautifulSoup
 from html.parser import HTMLParser
 
