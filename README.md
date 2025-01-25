@@ -45,4 +45,4 @@ Ok, did you name them with the `.internal` suffix? Because `.internal` is what y
 
 # Disclaimer
 
-This repository is not endorsed by my employer, organisation, clients, anyone, anything or any entity in any way, shape or form. This is released on the internet as a convenience only. Usage of this script may cause toast to sporadically appear inside of your computer case. No refunds, no "the toast has jammed by computer's fan" support here.
+This repository is not endorsed by my employer, organisation, clients, anyone, anything or any entity in any way, shape or form. This is released on the internet as a convenience only. Usage of this script may cause toast to sporadically appear inside of your computer case. No refunds, no "the toast has jammed my computer's fan" support here.
