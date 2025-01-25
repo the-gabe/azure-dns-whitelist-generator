@@ -12,7 +12,7 @@ Beware: Allowing the usage of the Graph API in your environment opens up a [well
 
 Someone should probably pitch to Microsoft having private per-application Graph API endpoints which strictly control what Graph API requests may be issued. Also you could probably do some form of restrictions using TLS inspection with Azure Firewall Premium I guess.
 
-This script will not generate domains for the Graph API and OpenID Connect endpoint used for Entra ID SSO. You need to allow the below in such a scenario:
+This script will not generate domains for the Graph API and MSAL (OpenID Connect, SAML login etc) URL endpoint used for Entra ID SSO. You need to allow the below in such a scenario:
 
 Graph API:
 
@@ -24,7 +24,7 @@ Graph API:
 
 `www.tm.prd.ags.akadns.net`
 
-OpenID Connect:
+MSAL Authority URL:
 
 `login.microsoftonline.com`
 
