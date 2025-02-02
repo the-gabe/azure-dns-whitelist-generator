@@ -10,7 +10,7 @@ With this whitelist, you will be able to ensure that all your Private DNS Zones 
 
 Beware: Allowing the usage of the Graph API in your environment opens up a [well known](https://x.com/vxunderground/status/1429867158075498506) and commonly used [C2](https://github.com/boku7/azureOutlookC2) data exfiltration vector, known to be used by [state sponsored](https://www.elastic.co/security-labs/siestagraph-new-implant-uncovered-in-asean-member-foreign-ministry) [threat actors](https://www.elastic.co/security-labs/update-to-the-REF2924-intrusion-set-and-related-campaigns). Looking right at you North Korea :)
 
-Someone should probably pitch to Microsoft having private per-application Graph API endpoints which strictly control what Graph API requests may be issued. Also you could probably do some form of restrictions using TLS inspection with Azure Firewall Premium but I have not explored this. Yet.
+Someone should probably pitch to Microsoft having private per-application Graph API endpoints which strictly control what Graph API requests may be issued. The alternative until such a time, is building a HTTPS proxy which does TLS MITM, which has traffic rules to restrict what Graph API requests/traffic is allowed. You could probably do that with Squid proxy.
 
 ## Graph API:
 
